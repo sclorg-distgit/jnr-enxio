@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: jnr.enxio
+Export-Package: jnr.enxio.channels;version="0.9.0"
+Bundle-Name: Java Native Runtime Enhanced X-platform I/O
+Bundle-Version: 0.9.0
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: Eclipse Orbit
+Import-Package: com.kenai.jffi;version="1.2.7",jnr.constants.platform;
+ version="0.8.6",jnr.ffi;version="2.0.1",jnr.ffi.annotations;version="
+ 2.0.1",jnr.ffi.mapper;version="2.0.1",jnr.ffi.provider.converters;ver
+ sion="2.0.1",jnr.ffi.provider.jffi;version="2.0.1",jnr.ffi.types;vers
+ ion="2.0.1"
+
